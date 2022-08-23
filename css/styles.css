@@ -1,0 +1,45 @@
+body {
+    margin: 20px auto;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 1.25rem;
+    background-color: rgb(252, 238, 209);
+  }
+  
+  form, p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 20px;
+  }
+  
+  p.note {
+    font-size: 1rem;
+    color: red;
+  }
+  
+  input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    padding: 4px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 300px;
+  }
+  
+  label {
+    width: 250px;
+    display: inline-block;
+  }
+  
+  input:invalid {
+    border: 1px solid #ccc;
+  }
+  
+  input:valid {
+    border: 2px solid rgb(30, 255, 0);
+  }
+
+  input.larger{
+    width:450px;
+  }
